@@ -3,4 +3,4 @@ from django.shortcuts import render
 # Create your views here.
 
 def index(request):
-    pass
+    return render(request, template_name='index.html', status=200, context={})
